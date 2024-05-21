@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0E0F1B;
+    color: #EEE5FF;
+}
+
+.font-s {
+    font-family: "Sora", sans-serif;
+}
+
+.font-o {
+    font-family: "Outfit", sans-serif;
+}
+
+.text-light {
+    color: #9D99AD;
+}
+
+.grad-color {
+    background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.grad-bg {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}
